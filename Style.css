@@ -1,0 +1,31 @@
+
+#center{
+	display: flex;
+	justify-content: center;
+
+}
+#circle{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid #FFD37A;
+	transition: width 2s,height 2s,background-color 2s;
+	margin-top: 20px;
+
+}	
+#circle:hover{
+	width: 380px;
+	height: 380px;
+	background-color: #FAEB55;
+}
+#circle h1{
+	text-align: center;
+}
+h1#welcome{
+	color: #FFE912;
+	text-align: center;
+	margin-top: 60px;
+}
