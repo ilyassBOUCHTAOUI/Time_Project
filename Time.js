@@ -19,7 +19,7 @@ function time(){
 		change("Good Afternoon","#F5983A","#F7C93A","black","#F5983A","url('../Time/photos/afternoon.jpg') ");
 	}
 	else  {
-		change("Good Evening","#393552","#393552","white","black","url('../Time/photos/evening.jfif') ");
+		change("Good Evening","#393552","#393552","white","#393552","url('../Time/photos/evening.jfif') ");
 	}
 
     display();
